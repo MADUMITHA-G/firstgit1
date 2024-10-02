@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(251, 251, 251, 0.207)50%,rgba(251, 251, 251, 0.207)50%),url(weimg.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 109vh;   
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+   
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(227, 8, 227);
+    margin-left: 80px;
+    font-size: 35px;
+    padding-left: 2px;
+    float: left;
+    padding-top: 20px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top:31px;
+    font-size: 15px;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.25 ease-in-out;
+}
+ul li a:hover{
+    color:rgb(227, 8, 227);
+}
+
+.search{
+   position: absolute;
+   top: 20px;
+   right: 100px;
+   display: flex;
+   align-items: center;
+}
+
+.srch{
+    
+        padding: 5px;
+        font-size: 16px;
+        background:transparent;
+        font-family: 'Times New Roman';
+        border: 2px solid  rgb(227, 8, 227);
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+}
+    
+button {
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color:  rgb(227, 8, 227);
+        border: 2px solid  rgb(227, 8, 227);
+}
+.btn{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    margin-top: 90px;
+    margin-left: 120px;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Times New Roman';
+}
+.par{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    
+}
+span{
+    color: rgb(227, 8, 227);
+}
+.j{
+    margin-right: 5px;
+    background-color: transparent;
+    border: 2px solid rgb(227, 8, 227);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.j:hover{
+    background-color: rgb(227, 8, 227);
+}
+.sub{
+    background-color: rgb(227, 8, 227);
+    color: white;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.sub:hover{
+    opacity: 0.5;
+}
+
+.login{
+    width: 320px;
+    height: 380px;
+    background-color: white;
+    top: 120px;
+    left: 970px;
+    position: absolute;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.lh{
+    
+    font-size: 32px;
+    text-align: center;
+    background-color: rgb(227, 8, 227);
+    width: 310px;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+    
+}
+.login input{
+    width: 310px;
+    height: 30px;
+    border:1px solid black;
+    margin:5px;
+}
+
+.lg{
+    width: 310px;
+    height: 30px;
+    align-items: center;
+    font-family: 'Times New Roman';
+    margin: 10px;
+    border-radius: 15px;
+    color: white;
+    transition: 0.5s;
+}
+.lg:hover{
+    background: transparent;
+    border: 2px solid rgb(227, 8, 227);
+    color: black;
+}
+
+.lin{
+    margin: 7px;
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+}
+.gog{
+    text-align: center;
+}
+
+.in a i{
+    font-size: 35px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
